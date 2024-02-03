@@ -29,9 +29,3 @@ img{
     width: auto;
     height: auto;
 }
-#divImg{
-    background-color: #f0f0f0; /* colore di sfondo */
-    display: flex; /* utilizza flexbox */
-    justify-content: center; /* allinea gli elementi lungo l'asse principale al centro */
-    align-items: center; /* allinea gli elementi lungo l'asse trasversale al centro */
-}
