@@ -1,0 +1,37 @@
+/* Stile per il menu di navigazione */
+header nav {
+    background-color: #333; /* Colore di sfondo del menu */
+}
+
+header nav ul {
+    list-style-type: none; /* Rimuove i punti elenco */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+header nav ul li {
+    float: left; /* Allinea gli elementi del menu in orizzontale */
+}
+
+header nav ul li a {
+    display: block; /* Trasforma i link in elementi di blocco per consentire lo spazio attorno al testo */
+    color: white; /* Colore del testo del link */
+    text-align: center; /* Centra il testo all'interno del link */
+    padding: 14px 16px; /* Spazio intorno al testo del link */
+    text-decoration: none; /* Rimuove la sottolineatura dei link */
+}
+
+header nav ul li a:hover {
+    background-color: #555; /* Cambia il colore di sfondo al passaggio del mouse */
+}
+img{
+    width: auto;
+    height: auto;
+}
+#divImg{
+    background-color: #f0f0f0; /* colore di sfondo */
+    display: flex; /* utilizza flexbox */
+    justify-content: center; /* allinea gli elementi lungo l'asse principale al centro */
+    align-items: center; /* allinea gli elementi lungo l'asse trasversale al centro */
+}
